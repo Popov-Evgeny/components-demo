@@ -13,6 +13,6 @@ const Person: React.FC<Props> = ({name, age, children}) => {
             <p>{children}</p>
         </div>
     );
-}
+};
 
 export default Person;
